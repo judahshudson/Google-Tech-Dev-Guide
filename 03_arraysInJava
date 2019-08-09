@@ -1,0 +1,15 @@
+// https://www.youtube.com/watch?v=7J_W3Mxid0g
+class Main {
+  public static void main(String[] args) {
+    int[]     ages    = {17, 21, 18, 19};
+    boolean[] student = new boolean[4];
+    student[0] = true;
+    student[1] = false;
+    student[2] = false;
+    student[3] = true;
+
+    for(int i = 0; i < ages.length; i++) {
+      System.out.println(ages[i]);
+    }
+  }
+}
