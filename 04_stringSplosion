@@ -1,0 +1,31 @@
+/*
+https://techdevguide.withgoogle.com/paths/foundational/stringsplosion-problem-ccocodcode/#!
+https://codingbat.com/prob/p117334
+
+Given a non-empty string like "Code" return a string like "CCoCodCode".
+
+stringSplosion("Code") → "CCoCodCode"
+stringSplosion("abc") → "aababc"
+stringSplosion("ab") → "aab"
+
+ALGORITHM
+print 1st char
+print 1st & 2nd char
+print 1st, 2nd & rd char
+...until last character printed
+
+PSEUDO CODE
+new string variable, newStr
+while i < len(str):
+newStr.append(str[0:i])  #must print on same line, no new line
+i++
+
+OR
+append to new variable instead of print,
+at end return new string
+
+
+*/
+
+
+
